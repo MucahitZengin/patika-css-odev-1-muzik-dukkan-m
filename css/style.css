@@ -1,0 +1,46 @@
+h1{
+    color: red;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    color: purple;
+    text-align: center;
+}
+h4{
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav > ul > li {
+    display: inline-block;
+    margin-right: 15px;
+} 
+article > ul > li{
+    list-style-position: inside;
+    text-align: center;
+}
+.fiyat{
+    font-weight: bold;
+}
+#urunler{
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
+
+#urunler > ol > li{
+    padding-bottom: 10%;
+}
+
+#urunler > ol > li > img{
+    width: 60%;
+}
+article{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
